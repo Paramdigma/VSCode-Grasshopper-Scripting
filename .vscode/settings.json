@@ -1,0 +1,9 @@
+{
+    "files.exclude": {
+        "**/bin": true,
+        "**/obj": true
+    },
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "breadcrumbs.enabled": true,
+}

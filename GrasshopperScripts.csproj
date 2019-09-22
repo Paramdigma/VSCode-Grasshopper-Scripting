@@ -1,0 +1,11 @@
+ <Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net452</TargetFramework>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="grasshopper" Version="6.17.19235.15041" />
+    <PackageReference Include="rhinocommon" Version="6.17.19235.15041" />
+  </ItemGroup>
+</Project>
