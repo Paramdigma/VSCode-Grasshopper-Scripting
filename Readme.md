@@ -89,8 +89,14 @@ Obviously, if the goal you are trying to achieve is very complex, this phrases c
 
 This part should be fairly easy. If you are reading this file from GitHub, go ahead and download the repository files somewhere in your computer.
 
-The _PS_ component has only two inputs. The first one is the _Enable_ toggle, to prevent it from updating the code inside the C# component. The second one is the path of the folder where you want _PS_ to look for your scripts. Create a panel in grasshopper and put the path to the folder you just downloaded. Note that, if you input any other folder path, *PS* will automatically create the project files for you (only valid for Windows).
+The _PS_ component has only two inputs. The first one is the _Enable_ toggle, to prevent it from updating the code inside the C# component. The second one is the path of the folder where you want _PS_ to look for your scripts. Create a panel in grasshopper and put the path to the folder you just downloaded. Note that, if you input any other folder path, _PS_ will automatically create the project files for you (only valid for Windows).
 
 > You will only need to specify this folder the first time _PS_ runs, as it will remember the last valid location that was introduced.
 
 ![Linking *PS* component to C# component](assets/gif/gh-linking-script-parasite.gif)
+
+#### Editing the script in VSCode
+
+
+
+![VSCode Intellisense and Hover features](assets/gif/vscode-features.gif)
