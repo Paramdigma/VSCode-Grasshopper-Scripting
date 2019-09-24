@@ -1,16 +1,16 @@
 {
+  "[csharp]": {
+    "editor.acceptSuggestionOnCommitCharacter": true,
+    "editor.snippetSuggestions": "inline",
+    "editor.suggest.filterGraceful": true,
+    "editor.suggest.localityBonus": true
+  },
+  "breadcrumbs.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
   "files.exclude": {
     "**/bin": true,
     "**/obj": true
   },
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": true,
-  "breadcrumbs.enabled": true,
-
-  "[csharp]": {
-    "editor.suggest.filterGraceful": true,
-    "editor.acceptSuggestionOnCommitCharacter": true,
-    "editor.snippetSuggestions": "inline",
-    "editor.suggest.localityBonus": true
-  }
+  "workbench.colorTheme": "Bluloco Light"
 }

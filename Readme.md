@@ -74,14 +74,20 @@ Just as important as _naming_, it is good practice to decide what would the **ma
 
 To help in this task, it is usually helpful to try and formulate the script that you want to do in the form of a very concrete sentence. Consider the following:
 
-- A script that creates **a** point (Pt) given it's cartesian coordinates **(X,Y,Z)**
-  - Input: 3 numbers called X,Y,Z using item access.
-  - Output: A single point called Pt.
-- A script that takes **a** mesh (M) and returns it's faces (F), vertices (V), colors (C), and normals (N).
-  - Input: A single mesh called M using item access.
-  - Output: 4 different outputs (V,F,C,N) each of them returning a list of entities.
-- A script that bakes any structure with geometry to the Rhino model on the press of a button.
-  - Input: A boolean input (Trigger) to simulate a button with item acces and a generic geometry input (G) with tree access, since it has to accomodate any kind of input in any data structure form.
+> A script that creates **a** point (Pt) given it's cartesian coordinates **(X,Y,Z)**
+>
+> - **Input**: 3 numbers called X,Y,Z using item access.
+> - **Output**: A single point called Pt.
+
+> A script that takes **a** mesh (M) and returns it's faces (F), vertices (V), colors (C), and normals (N).
+>
+> - **Input**: A single mesh called M using item access.
+> - **Output**: 4 different outputs (V,F,C,N) each of them returning a list of entities.
+
+> A script that bakes any structure with geometry to the Rhino model on the press of a button.
+>
+> - **Input**: A boolean input (Trigger) to simulate a button with item acces and a generic geometry input (G) with tree access, since it has to accomodate any kind of input in any data structure form.
+> - **Output**: _None_
 
 Obviously, if the goal you are trying to achieve is very complex, this phrases can also become quite complex. Although, this is usually a sign that you are trying to do more than you should in a single component, and maybe you should consider breaking the functionality down into smaller parts.
 
@@ -96,7 +102,5 @@ The _PS_ component has only two inputs. The first one is the _Enable_ toggle, to
 ![Linking *PS* component to C# component](assets/gif/gh-linking-script-parasite.gif)
 
 #### Editing the script in VSCode
-
-
 
 ![VSCode Intellisense and Hover features](assets/gif/vscode-features.gif)
